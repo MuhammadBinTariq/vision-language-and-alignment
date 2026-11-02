@@ -1,0 +1,6 @@
+method,reward_model_win_rate_vs_sft,mean_sampled_token_kl,evaluation_prompts
+sft_self_comparison,0.50,0.007988,50
+dpo,0.48,0.007779,50
+ppo,0.50,0.009007,50
+grpo,0.56,0.006629,50
+rlvr,0.46,0.005580,50

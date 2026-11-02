@@ -1,0 +1,516 @@
+{
+  "repository": "Raahim58/Deep-Vision-Language-Models-",
+  "commit": "91fe1c49e6ed94b9ca584d856c5aba6ea5c4da33",
+  "files": [
+    {
+      "path": "alignment/README.md",
+      "source": "Programming Assignments/PA2_1/code/README.md",
+      "sha": "27c5afa282a2f8a3652f208598bfd048f4a12faa"
+    },
+    {
+      "path": "alignment/alignment/__init__.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/__init__.py",
+      "sha": "61f7f98b4d85109a53c57d548a2c8a88ef52920f"
+    },
+    {
+      "path": "alignment/alignment/advantages.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/advantages.py",
+      "sha": "57a4627951024c4d9bb7347a80d9e6c2fffd21a9"
+    },
+    {
+      "path": "alignment/alignment/dpo.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/dpo.py",
+      "sha": "87174a81824dee3f4d30eb7bd6f9adf52a1e2f16"
+    },
+    {
+      "path": "alignment/alignment/grpo.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/grpo.py",
+      "sha": "242444eac5f3292b9e72690dbd7ec06d4969b95d"
+    },
+    {
+      "path": "alignment/alignment/kl.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/kl.py",
+      "sha": "ea6e318e466870637225f2936cb26bf5522e05e1"
+    },
+    {
+      "path": "alignment/alignment/ppo.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/ppo.py",
+      "sha": "2cc5a5087964e3855a2da15bdff97d9dd885b4af"
+    },
+    {
+      "path": "alignment/alignment/rlvr.py",
+      "source": "Programming Assignments/PA2_1/code/alignment/rlvr.py",
+      "sha": "5383317ee2d9e8ea796789d69989f33deb57eb7f"
+    },
+    {
+      "path": "alignment/configs/default.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/default.yaml",
+      "sha": "4438a315420294d721a49768532d9d60425072b6"
+    },
+    {
+      "path": "alignment/configs/dpo.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/dpo.yaml",
+      "sha": "acfa708a0310ce1f8102fd94035bd276fc9104b2"
+    },
+    {
+      "path": "alignment/configs/grpo.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/grpo.yaml",
+      "sha": "60a3d73612c1b43bd7f4f24763022ded3c7ce811"
+    },
+    {
+      "path": "alignment/configs/ppo.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/ppo.yaml",
+      "sha": "e2e8ac0c2ab6e596fd0609386a1b46e586a53ded"
+    },
+    {
+      "path": "alignment/configs/rlvr.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/rlvr.yaml",
+      "sha": "b393002d580b8b14ebec0fc74d79a35c71c2209b"
+    },
+    {
+      "path": "alignment/configs/rm.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/rm.yaml",
+      "sha": "e2060ed660366600f93a97a55dc0aecb61238261"
+    },
+    {
+      "path": "alignment/configs/sft.yaml",
+      "source": "Programming Assignments/PA2_1/code/configs/sft.yaml",
+      "sha": "8743b26413a38025973d9fc73bca557076d9fba5"
+    },
+    {
+      "path": "alignment/data/__init__.py",
+      "source": "Programming Assignments/PA2_1/code/data/__init__.py",
+      "sha": "88c54b9349856672e492f1df59484f134ef562b8"
+    },
+    {
+      "path": "alignment/data/collators.py",
+      "source": "Programming Assignments/PA2_1/code/data/collators.py",
+      "sha": "502dc67e6895297c8ae0638d88d0d5ecf70f4a89"
+    },
+    {
+      "path": "alignment/data/gsm8k.py",
+      "source": "Programming Assignments/PA2_1/code/data/gsm8k.py",
+      "sha": "d3b92d24a5040c2fe27ecdd265fa4ecffb23cf42"
+    },
+    {
+      "path": "alignment/data/hh_rlhf.py",
+      "source": "Programming Assignments/PA2_1/code/data/hh_rlhf.py",
+      "sha": "249edc805055d42d122bf35fa06640691c20e63b"
+    },
+    {
+      "path": "alignment/data/parsing.py",
+      "source": "Programming Assignments/PA2_1/code/data/parsing.py",
+      "sha": "15df4b5ca460cc9b42e63133d42e2b239563af3e"
+    },
+    {
+      "path": "alignment/eval.py",
+      "source": "Programming Assignments/PA2_1/code/eval.py",
+      "sha": "f3381fe52aa5c50f3d6ad25907f0e0340ba19d17"
+    },
+    {
+      "path": "alignment/model/__init__.py",
+      "source": "Programming Assignments/PA2_1/code/model/__init__.py",
+      "sha": "e8ac3034e5c77623a7cea3b1b7db195884cca4b5"
+    },
+    {
+      "path": "alignment/model/generation.py",
+      "source": "Programming Assignments/PA2_1/code/model/generation.py",
+      "sha": "1ea7445002676da6edd558fce691bc90c5535f97"
+    },
+    {
+      "path": "alignment/model/loading.py",
+      "source": "Programming Assignments/PA2_1/code/model/loading.py",
+      "sha": "09a8aa0a1166ac6de72c733d31906a1149bd7311"
+    },
+    {
+      "path": "alignment/model/logprobs.py",
+      "source": "Programming Assignments/PA2_1/code/model/logprobs.py",
+      "sha": "30e7934fd80f06e23da64ca8b0d48ebe204284ca"
+    },
+    {
+      "path": "alignment/model/lora.py",
+      "source": "Programming Assignments/PA2_1/code/model/lora.py",
+      "sha": "ae08f4add964c8b30512b8aa93a47783f42a8b35"
+    },
+    {
+      "path": "alignment/model/reward_model.py",
+      "source": "Programming Assignments/PA2_1/code/model/reward_model.py",
+      "sha": "437b448474d727af8bf2b004580ca724302976c0"
+    },
+    {
+      "path": "alignment/model/value_model.py",
+      "source": "Programming Assignments/PA2_1/code/model/value_model.py",
+      "sha": "d9842d1cd084af6a53c9931508f24fc3d18f7b36"
+    },
+    {
+      "path": "alignment/pyproject.toml",
+      "source": "Programming Assignments/PA2_1/code/pyproject.toml",
+      "sha": "5bae63f60181a0b91df3e1dcaf43be5db83836cc"
+    },
+    {
+      "path": "alignment/requirements.txt",
+      "source": "Programming Assignments/PA2_1/code/requirements.txt",
+      "sha": "02584963f219cbd85eafc0afdcbe54afc8e8d08c"
+    },
+    {
+      "path": "alignment/run_ablations.py",
+      "source": "Programming Assignments/PA2_1/code/run_ablations.py",
+      "sha": "fa3bbbbd1900bfb496cdeb05ba5595b50cc39e71"
+    },
+    {
+      "path": "alignment/tools/make_scripts_zip.py",
+      "source": "Programming Assignments/PA2_1/code/tools/make_scripts_zip.py",
+      "sha": "0ea0cb244efd375c49bf28326d10132ba9db74e9"
+    },
+    {
+      "path": "alignment/train_rl.py",
+      "source": "Programming Assignments/PA2_1/code/train_rl.py",
+      "sha": "00dc4e5b0c0ca7310a1b589dc443739a53f9e971"
+    },
+    {
+      "path": "alignment/train_rm.py",
+      "source": "Programming Assignments/PA2_1/code/train_rm.py",
+      "sha": "c2a33a702426319ab36bce7dfa02be64cd147c2c"
+    },
+    {
+      "path": "alignment/train_sft.py",
+      "source": "Programming Assignments/PA2_1/code/train_sft.py",
+      "sha": "0e64724b2f8417df5af080944a440636f21c04e8"
+    },
+    {
+      "path": "alignment/utils/__init__.py",
+      "source": "Programming Assignments/PA2_1/code/utils/__init__.py",
+      "sha": "e63bb7804a20b338fa1add101659c0b3e2af5d1b"
+    },
+    {
+      "path": "alignment/utils/config.py",
+      "source": "Programming Assignments/PA2_1/code/utils/config.py",
+      "sha": "8c73d9061cc389b452116f71c814b8b044619f77"
+    },
+    {
+      "path": "alignment/utils/io.py",
+      "source": "Programming Assignments/PA2_1/code/utils/io.py",
+      "sha": "ee750729c945f8a38291bbadc1f869ac6258d310"
+    },
+    {
+      "path": "alignment/utils/logging_utils.py",
+      "source": "Programming Assignments/PA2_1/code/utils/logging_utils.py",
+      "sha": "21bacaf7fa6293aaad62f70f6055755c54078ac9"
+    },
+    {
+      "path": "alignment/utils/memory.py",
+      "source": "Programming Assignments/PA2_1/code/utils/memory.py",
+      "sha": "95132faef9225937607c6ab3e83f3101c5aac454"
+    },
+    {
+      "path": "alignment/utils/metrics.py",
+      "source": "Programming Assignments/PA2_1/code/utils/metrics.py",
+      "sha": "e29b40e06ef7aaf5de285471daa4a4bc7b228d91"
+    },
+    {
+      "path": "alignment/utils/plotting.py",
+      "source": "Programming Assignments/PA2_1/code/utils/plotting.py",
+      "sha": "9bb316527510a3c1f5a8b0cf9228520242ec14e4"
+    },
+    {
+      "path": "alignment/utils/seed.py",
+      "source": "Programming Assignments/PA2_1/code/utils/seed.py",
+      "sha": "fc069a023a54f07b6bd440e17346ae2d454b5873"
+    },
+    {
+      "path": "alignment/utils/text.py",
+      "source": "Programming Assignments/PA2_1/code/utils/text.py",
+      "sha": "41b1bffdc59852293e0c0aa5bbd40b670d5586b2"
+    },
+    {
+      "path": "vlm/README.md",
+      "source": "Programming Assignments/PA3/pa3_vlm/README.md",
+      "sha": "04c0b4dc76d10bc0a88197ae95f4a91294b09a23"
+    },
+    {
+      "path": "vlm/configs/part_a.yaml",
+      "source": "Programming Assignments/PA3/pa3_vlm/configs/part_a.yaml",
+      "sha": "19cab29d41debaf7d0d461c2e51ff5f3cf996d0d"
+    },
+    {
+      "path": "vlm/configs/part_b.yaml",
+      "source": "Programming Assignments/PA3/pa3_vlm/configs/part_b.yaml",
+      "sha": "7b463dbfbc239a66e11bc79178202bc458f01715"
+    },
+    {
+      "path": "vlm/requirements.txt",
+      "source": "Programming Assignments/PA3/pa3_vlm/requirements.txt",
+      "sha": "8a9876fe8a9afd4411f39004b1ba99058dd3a6da"
+    },
+    {
+      "path": "vlm/scripts/run_a0_setup.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a0_setup.py",
+      "sha": "35e750104ff7c4ebe8dfe777e89820f49a444485"
+    },
+    {
+      "path": "vlm/scripts/run_a1_connector_init.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a1_connector_init.py",
+      "sha": "5df97cab21a259a732726363d6fc9be4eb9b2887"
+    },
+    {
+      "path": "vlm/scripts/run_a2_sft_replay.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a2_sft_replay.py",
+      "sha": "596703cd870e2f4bd1ac1808b9a38a0fb2c7d847"
+    },
+    {
+      "path": "vlm/scripts/run_a3_vqa_alignment.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a3_vqa_alignment.py",
+      "sha": "0e78a43a14e77bbcc44130a25a35c2550adfbf0c"
+    },
+    {
+      "path": "vlm/scripts/run_a4_eval.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a4_eval.py",
+      "sha": "32474821141f511ff79c89ea8377c23107755cb7"
+    },
+    {
+      "path": "vlm/scripts/run_a5_modality_gap.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a5_modality_gap.py",
+      "sha": "437dd94984f7928e9a9e68dbeede88ab8d645d1b"
+    },
+    {
+      "path": "vlm/scripts/run_a6_ablation.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_a6_ablation.py",
+      "sha": "f367772a4119c94891dd8bd7fdea1c9b13d28cb7"
+    },
+    {
+      "path": "vlm/scripts/run_all_part_a.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_all_part_a.py",
+      "sha": "3eec4357969c4f758201881dc36db24bb4e20f30"
+    },
+    {
+      "path": "vlm/scripts/run_all_part_b.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_all_part_b.py",
+      "sha": "8d6f790ce6485d5c836ffbb7adf920c650398852"
+    },
+    {
+      "path": "vlm/scripts/run_b0_setup.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b0_setup.py",
+      "sha": "0a88bc3a287997a8339c6ab5de3cfbf3c5c1e1f8"
+    },
+    {
+      "path": "vlm/scripts/run_b1_train_vqvae.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b1_train_vqvae.py",
+      "sha": "5985ea5bdcae79e8ec4fdb971407a2f96d260885"
+    },
+    {
+      "path": "vlm/scripts/run_b2_vocab_projector.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b2_vocab_projector.py",
+      "sha": "fd8ecd741fe1910ad3491accfad13677e7f34a49"
+    },
+    {
+      "path": "vlm/scripts/run_b3_tokenization_check.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b3_tokenization_check.py",
+      "sha": "f62889214e3763177d419384967d0f9bf68579b3"
+    },
+    {
+      "path": "vlm/scripts/run_b4_mixed_finetune.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b4_mixed_finetune.py",
+      "sha": "37b35f9f6f92f9926c73d46cdfef8157b6e00389"
+    },
+    {
+      "path": "vlm/scripts/run_b5_eval.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b5_eval.py",
+      "sha": "fbfbe8959d5752d894e11bedb1a5b6af7f4932ef"
+    },
+    {
+      "path": "vlm/scripts/run_b6_ablation.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/scripts/run_b6_ablation.py",
+      "sha": "cf310daed3e545419534455f373b93e33f00864d"
+    },
+    {
+      "path": "vlm/src/pa3/__init__.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/__init__.py",
+      "sha": "f38884b6476719df6f061b8f5fe337a2e0b32cd9"
+    },
+    {
+      "path": "vlm/src/pa3/common/checkpointing.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/checkpointing.py",
+      "sha": "6a209e34a7f367323b252cb33addf378e5d674cd"
+    },
+    {
+      "path": "vlm/src/pa3/common/config.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/config.py",
+      "sha": "e69acba91b3fdd58487da12da004a00481f67785"
+    },
+    {
+      "path": "vlm/src/pa3/common/device.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/device.py",
+      "sha": "3014f27bd9300dc6d6864d1a6562bbb6e2108680"
+    },
+    {
+      "path": "vlm/src/pa3/common/generation.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/generation.py",
+      "sha": "0c30d534686d247c96b33e7bda2564670d7f5e47"
+    },
+    {
+      "path": "vlm/src/pa3/common/logging_utils.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/logging_utils.py",
+      "sha": "06e3735eb7765349e9a19af6861ee695eb66713a"
+    },
+    {
+      "path": "vlm/src/pa3/common/metrics.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/metrics.py",
+      "sha": "21b54e5a048e28d3026459ab0b64b25af292890c"
+    },
+    {
+      "path": "vlm/src/pa3/common/param_count.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/param_count.py",
+      "sha": "a61f2c6d9504efbda45a6a702bca4b98906f9cbc"
+    },
+    {
+      "path": "vlm/src/pa3/common/plotting.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/plotting.py",
+      "sha": "425bf33595954756ecafe25de002244f28a7a8d9"
+    },
+    {
+      "path": "vlm/src/pa3/common/seed.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/seed.py",
+      "sha": "7ba73b54047b2e652b51246d7ace0c01fb2443a9"
+    },
+    {
+      "path": "vlm/src/pa3/common/text_ppl.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/text_ppl.py",
+      "sha": "04c622407d3aef96b8be7c00a04751f84de8f09a"
+    },
+    {
+      "path": "vlm/src/pa3/common/timing.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/timing.py",
+      "sha": "b186508a5439c10869d906859ef7d05d60cb228c"
+    },
+    {
+      "path": "vlm/src/pa3/common/vram.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/common/vram.py",
+      "sha": "d08163f6fd62ae68bd30b6c9ba4dc8c6cb740109"
+    },
+    {
+      "path": "vlm/src/pa3/data/alpaca_replay.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/alpaca_replay.py",
+      "sha": "482e32e1fc6981a3a0077b73b2654352db634f8b"
+    },
+    {
+      "path": "vlm/src/pa3/data/multimodal_tokenization.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/multimodal_tokenization.py",
+      "sha": "60fac3360f02181820404185d886735059709624"
+    },
+    {
+      "path": "vlm/src/pa3/data/part_a_cifar.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/part_a_cifar.py",
+      "sha": "e94b1b54b7132031d1e7eb2fe9ee049b4c023d14"
+    },
+    {
+      "path": "vlm/src/pa3/data/part_a_templates.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/part_a_templates.py",
+      "sha": "38a7f2eb87122de6060c187a0c0f8d7b4dae6f5e"
+    },
+    {
+      "path": "vlm/src/pa3/data/part_b_synthetic.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/part_b_synthetic.py",
+      "sha": "b0b04f1bf2b10e5a1d59f4697b24ea963b69b955"
+    },
+    {
+      "path": "vlm/src/pa3/data/part_b_templates.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/data/part_b_templates.py",
+      "sha": "767ae9da9a379c0858daa4a5cf3ef50b04e2e741"
+    },
+    {
+      "path": "vlm/src/pa3/eval/baselines.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/eval/baselines.py",
+      "sha": "7c4e36789b422f7c0eb101275fac8af8061f4ecf"
+    },
+    {
+      "path": "vlm/src/pa3/eval/part_a_eval.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/eval/part_a_eval.py",
+      "sha": "089e8d0771c67bd2fcb53b4e18897104abaa782a"
+    },
+    {
+      "path": "vlm/src/pa3/eval/part_a_modality_gap.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/eval/part_a_modality_gap.py",
+      "sha": "fa1660dfd621089f2e90070da1e4f7a86d7a42d9"
+    },
+    {
+      "path": "vlm/src/pa3/eval/part_b_eval.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/eval/part_b_eval.py",
+      "sha": "24d9e6ff09f3bc57004bc5aca7a564e700b14d47"
+    },
+    {
+      "path": "vlm/src/pa3/eval/qualitative.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/eval/qualitative.py",
+      "sha": "f63747cc253a01d35d33afe083ca89c59e57047b"
+    },
+    {
+      "path": "vlm/src/pa3/models/logit_masks.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/logit_masks.py",
+      "sha": "d39f47fbeceaa3b23a64478a64f48d826c24b8f9"
+    },
+    {
+      "path": "vlm/src/pa3/models/lora_utils.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/lora_utils.py",
+      "sha": "8e1262c1414c2cb0f355acf7f8dfe6f387cde43a"
+    },
+    {
+      "path": "vlm/src/pa3/models/overlay_embedding.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/overlay_embedding.py",
+      "sha": "53201b52dec8e9fad8a5e25b6bc3ceb2ce4af206"
+    },
+    {
+      "path": "vlm/src/pa3/models/part_a_connector.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/part_a_connector.py",
+      "sha": "458f60dbdaee8bd7979d40f9a8fc0da616fab8dc"
+    },
+    {
+      "path": "vlm/src/pa3/models/part_a_vlm.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/part_a_vlm.py",
+      "sha": "4df3b7c92c64e9eca6409aba92ed34ed48d1e0d7"
+    },
+    {
+      "path": "vlm/src/pa3/models/vector_quantizer.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/vector_quantizer.py",
+      "sha": "aaa36e7dd87597487300230ae20f468d27b251a6"
+    },
+    {
+      "path": "vlm/src/pa3/models/vqvae.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/models/vqvae.py",
+      "sha": "d8b871848a4d37a9937faa5428174276f5a4058d"
+    },
+    {
+      "path": "vlm/src/pa3/train/datasets.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/datasets.py",
+      "sha": "1c8679e502bb62cb578db522366846c876467b4f"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_a_phase1.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_a_phase1.py",
+      "sha": "24ed37af2592306a3f876a1d8ef3a953f7c7a770"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_a_phase2.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_a_phase2.py",
+      "sha": "56d1a8587176836c17594c0692a271a008f117bd"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_a_phase3.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_a_phase3.py",
+      "sha": "9a2a027502f4e9552b4cc658f91b9a2657a5d7f7"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_b_mixed_train.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_b_mixed_train.py",
+      "sha": "35c4dbec37afab28dfd8ef616904e6fcddf716aa"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_b_projector_warmup.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_b_projector_warmup.py",
+      "sha": "fa70e82f90480ad2c571b5bacca74b3c586a301e"
+    },
+    {
+      "path": "vlm/src/pa3/train/part_b_vqvae_train.py",
+      "source": "Programming Assignments/PA3/pa3_vlm/src/pa3/train/part_b_vqvae_train.py",
+      "sha": "a7cc18b15e36b7d13d874a1f3830e69295480428"
+    }
+  ]
+}

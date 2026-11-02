@@ -1,0 +1,6 @@
+experiment,metric,value,evaluation_scope
+continuous_phase2,vqa_exact_match,0.9716,10000 templated CIFAR-10 pairs
+continuous_phase3,vqa_exact_match,0.9673,10000 templated CIFAR-10 pairs
+continuous_phase2,modality_gap,1.0916,fixed 200-example subset
+continuous_phase3,modality_gap,1.0668,fixed 200-example subset
+discrete_mixed,vqa_exact_match,0.998,500 synthetic VQA pairs

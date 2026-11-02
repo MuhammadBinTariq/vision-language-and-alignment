@@ -1,0 +1,32 @@
+[
+  {
+    "source": "PAs/DVLM.ipynb",
+    "published": "alignment/notebooks/legacy_1p7b.ipynb",
+    "cells": 34,
+    "cleared_output_blocks": 90
+  },
+  {
+    "source": "PAs/DVLM_PA2_1.ipynb",
+    "published": "alignment/notebooks/run_alignment.ipynb",
+    "cells": 49,
+    "cleared_output_blocks": 177
+  },
+  {
+    "source": "PA3/PartA.ipynb",
+    "published": "vlm/notebooks/continuous_vlm.ipynb",
+    "cells": 162,
+    "cleared_output_blocks": 239
+  },
+  {
+    "source": "PA3/PartB.ipynb",
+    "published": "vlm/notebooks/discrete_vlm.ipynb",
+    "cells": 113,
+    "cleared_output_blocks": 548
+  },
+  {
+    "source": "PAs/DVLM_PA3.ipynb",
+    "published": "vlm/notebooks/data_exploration.ipynb",
+    "cells": 28,
+    "cleared_output_blocks": 60
+  }
+]
